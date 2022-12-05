@@ -1,0 +1,46 @@
+// Base Colors
+$transparent:                                          transparent !default;
+$white:                                                #fff !default;
+$gray:                                                 #fbfbfb !default;
+$gray-100:                                             #f6f9fc !default;
+$gray-200:                                             #eaf2f9 !default;
+$gray-400:                                             #d9e4ec !default;
+$gray-500:                                             #c1d0da !default;
+$gray-600:                                             #5a6a7e !default; // mainly used for text-muted
+$gray-800:                                             #1b1e24 !default; // dark color
+$black:                                                #000 !default;
+
+
+$primary:     #2e1e55 !default;
+$body-bg:     #f8f8f8 !default;
+$body-color:  #1b1e24 !default;
+$secondary:   #00c9a7 !default;
+$success:     #61E094 !default;
+$info:        #2972fa !default;
+$warning:     #e6a23c !default;
+$danger:      #f56c6c !default;
+$light:       $gray-100 !default;
+$dark:        $body-color !default;  
+
+// Typography
+// =============================================================
+
+// Base Styles
+//
+// Base font styles such as font-family, font-size etc.
+$font-size-base:                                       .875rem !default;
+$font-family-sans-serif:                               "Roboto", sans-serif !default;
+$font-weight-light:                                    300 !default;
+$font-weight-normal:                                   400 !default;
+$font-weight-bold:                                     600 !default;
+$text-muted:                                           $gray-600 !default;
+
+// Headings
+//
+// Style heading e.g. <h1> elements.
+$h1-font-size:                                         $font-size-base * 1.75 !default;
+$h2-font-size:                                         $font-size-base * 1.5 !default;
+$h3-font-size:                                         $font-size-base * 1.125 !default;
+$h4-font-size:                                         $font-size-base !default;
+$h5-font-size:                                         $font-size-base * .875 !default;
+$h6-font-size:                                         $font-size-base * .75 !default;

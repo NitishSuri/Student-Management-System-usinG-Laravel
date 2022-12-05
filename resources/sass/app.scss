@@ -1,0 +1,18 @@
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+
+// Bootstrap setup
+@import '~bootstrap/scss/functions';
+
+// Variables Overrides
+@import 'variables';
+
+// Bootstrap core
+@import '~bootstrap/scss/bootstrap';
+
+@import "~element-ui/packages/theme-chalk/src/index";
